@@ -1,0 +1,240 @@
+number = float(input("Enter number: "))
+print(type(number))
+print(number)
+
+number = float(input("Enter number: "))
+print(type(number))
+print(number)
+
+number = float(input("Enter number: "))
+print(type(number))
+print(number)
+
+number = float(input("Enter number: "))
+print(type(number))
+print(number)
+
+number = float(input("Enter number: "))
+print(type(number))
+print(number)
+
+number = float(input("Enter number: "))
+print(type(number))
+print(number)
+
+number = float(input("Enter number: "))
+print(type(number))
+print(number)
+
+number = float(input("Enter number: "))
+print(type(number))
+print(number)
+
+number = float(input("Enter number: "))
+print(type(number))
+print(number)
+
+number = float(input("Enter number: "))
+print(type(number))
+print(number)
+
+
+number = int(input("Enter number: "))
+print(type(number))
+print(number)
+
+number = int(input("Enter number: "))
+print(type(number))
+print(number)
+
+number = int(input("Enter number: "))
+print(type(number))
+print(number)
+
+number = int(input("Enter number: "))
+print(type(number))
+print(number)
+
+number = int(input("Enter number: "))
+print(type(number))
+print(number)
+
+number = int(input("Enter number: "))
+print(type(number))
+print(number)
+
+number = int(input("Enter number: "))
+print(type(number))
+print(number)
+
+number = int(input("Enter number: "))
+print(type(number))
+print(number)
+
+number = int(input("Enter number: "))
+print(type(number))
+print(number)
+
+number = int(input("Enter number: "))
+print(type(number))
+print(number)
+
+
+number = str(input("Enter number: "))
+print(type(number))
+print(number)
+
+number = str(input("Enter number: "))
+print(type(number))
+print(number)
+
+number = str(input("Enter number: "))
+print(type(number))
+print(number)
+
+number = str(input("Enter number: "))
+print(type(number))
+print(number)
+
+number = str(input("Enter number: "))
+print(type(number))
+print(number)
+
+number = str(input("Enter number: "))
+print(type(number))
+print(number)
+
+number = str(input("Enter number: "))
+print(type(number))
+print(number)
+
+number = str(input("Enter number: "))
+print(type(number))
+print(number)
+
+number = str(input("Enter number: "))
+print(type(number))
+print(number)
+
+number = str(input("Enter number: "))
+print(type(number))
+print(number)
+
+მონაცემტა ტიპის კონვერტაცია გვჭირდება როდესაც ჩვენ გვინდა რაიმე მონაცემის ტიპის მნიშვნელობა შევცვალოთ.
+
+print(2>1)
+print(3>2)
+print(4>3)
+print(5>4)
+print(6>5)
+print(3>2)
+print(4>3)
+print(5>4)
+print(6>5)
+print(7>6)
+
+
+print(1<2)
+print(2<3)
+print(3<4)
+print(4<5)
+print(5<6)
+print(0<1)
+print(2<3)
+print(3<4)
+print(4<5)
+print(5<6)
+
+
+print(1>=0)
+print(2>=1)
+print(3>=2)
+print(4>=3)
+print(5>=4)
+print(0>=0)
+print(2>=2)
+print(3>=3)
+print(4>=4)
+print(5>=5)
+
+
+print(1<=2)
+print(2<=3)
+print(3<=4)
+print(4<=5)
+print(5<=6)
+print(0<=0)
+print(2<=2)
+print(3<=3)
+print(4<=4)
+print(5<=5)
+
+
+print(1!=2)
+print(2!=3)
+print(3!=4)
+print(4!=5)
+print(5!=6)
+print(0!=1)
+print(2!=3)
+print(3!=4)
+print(4!=5)
+print(5!=6)
+
+
+print(1==1)
+print(2==2)
+print(3==3)
+print(4==4)
+print(5==5)
+print(0==0)
+print(2==2)
+print(3==3)
+print(4==4)
+print(5==5)
+
+age = input(type(" enter yout age: "))
+print("enter your age in 10 years later:" , enter your age in 10 years later)
+
+
+age = int(input("Enter your age: "))
+num1 = 10
+print(type(age))
+print(age) 
+
+age = int(input("Enter your age: "))
+num2 = 15
+print(type(age))
+print(age) 
+
+age = int(input("Enter your age: "))
+num3 = 20
+print(type(age))
+print(age) 
+Avarage = ("num1 + num2 + num3" / 3)
+
+
+number = int(input("Enter  number: "))
+number1 = 3
+
+number = int(input("Enter  number: "))
+number2 = 5
+print("number1 + number2")             
+print("number2 - number1")
+print("number1 * number2")
+print("number2 % number1")
+pritn("number1**number2")
+print("number2**number1")
+
+numeber = int(input("enter number: "))
+number3 = 10
+
+numeber = int(input("enter number: "))
+number4 = 15
+
+numeber = int(input("enter number: "))
+number5 = 25
+print("number3 + number4 + number5")
+print("number5 - number3 - number4")
+print("number3 * number4 * number5")
+print("number5 % number4 % number3")

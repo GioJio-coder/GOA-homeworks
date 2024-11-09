@@ -1,0 +1,52 @@
+number = float(input("Enter number: "))
+print(type(number))
+print(number)
+
+number = int(input("Enter number: "))
+print(type(number))
+print(number)
+
+number = int(input("Enter number: "))
+print(type(number))
+print(number)
+
+weight = float(input("Enter weight: "))
+height = float(input("Enter height: "))
+bmi = (weight/height**2)
+print(bmi) 
+
+print(2>1)
+print(3>2)
+print(4>3)
+print(5>4)
+print(6>5)
+
+print(1<2)
+print(2<3)
+print(3<4)
+print(4<5)
+print(5<6)
+
+print(1>=1)
+print(2>=1)
+print(2>=2)
+print(3>=2)
+print(3>=3)
+
+print(1<=1)
+print(2<=3)
+print(2<=2)
+print(3<=4)
+print(3<=3)
+
+print(1==1)
+print(2==2)
+print(3==3)
+print(4==4)
+print(5==5)
+
+print(10!=20)
+print(20!=30)
+print(30!=40)
+print(40!=50)
+print(50!=60)
