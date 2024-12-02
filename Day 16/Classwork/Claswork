@@ -1,0 +1,30 @@
+num1 = int(input("Enter your number: "))
+sum = 0
+for x in range(num1):
+    sum = sum + x
+print(sum)
+
+correct_password = "123"
+user_guess = input("Enter password: ")
+counter = 0
+
+while user_guess != correct_password:
+    user_guess = input("Enter password: ")
+    counter += 1
+
+    print("Access granted")
+    print("Your guess count:", str(counter))
+
+
+
+
+my_num = 1
+user_num = int(input("enter correct number: "))
+counter = 3
+
+while user_num != my_num:
+    user_num = input("enter correct password: ")
+    counter += 1
+
+    print("you guessed")
+    print("Your guess count:", str(counter))
