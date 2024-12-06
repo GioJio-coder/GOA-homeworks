@@ -1,0 +1,20 @@
+20 %2 == 0
+print(str, "is even")
+print(str, "is odd")
+
+for x in range1, (20, 2):
+    print(x)
+
+for x in range(10, 31):
+    if x%2 == 0:
+        print(str(x), " - even")
+    else:
+        print(str(x), " - odd")
+
+num1 = int(input("Enter your number: "))
+num2 = int(input("Enter your second number: "))
+for x in range(num2,  num1):
+    print(str(x), " - even")
+for x in range(num1, num2):
+    print(str(x), " - odd")
+print("num1 + num2")
