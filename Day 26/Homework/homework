@@ -1,0 +1,11 @@
+def two_numbers(numbers):
+    int(input("enter your first number: "))
+    int(input("enter your second number: "))
+
+def even_odd(numbers):
+    if numbers %2:print(even)
+
+def reversed_strings(strings):
+    list1 = [1, 2, 3]
+print(list1[-1, -2, -3])
+
