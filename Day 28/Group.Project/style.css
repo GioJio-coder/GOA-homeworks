@@ -1,0 +1,162 @@
+body {
+    position: relative;
+    margin: 0;
+}
+
+#a1{
+    font-size: xx-large;
+}
+
+
+header{
+    background-color: black;
+    color: white;
+    font-size: large;
+    text-align: center;
+}
+
+a{
+    color: white;
+    margin-right: 30px;
+}
+
+.logo {
+    width: 80px;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+#table, th, td{
+    border: 2px solid;
+    
+}
+
+#k1{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 50px 0 50px 0;
+
+}
+
+#k2{
+    width: 50%;
+    display: flex; 
+    justify-content: center;
+}
+
+img{
+    border-radius: 20px;
+}
+
+#k3{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+#j1{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 50px 0 50px 0;
+
+}
+
+#j2{
+    width: 50%;
+    display: flex; 
+    justify-content: center;
+}
+
+#j3{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+#l1{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 50px 0 50px 0;
+
+}
+
+#l2{
+    width: 50%;
+    display: flex; 
+    justify-content: center;
+}
+
+#l3{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+#y1{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 50px 0 50px 0;
+
+}
+
+#y2{
+    width: 50%;
+    display: flex; 
+    justify-content: center;
+}
+
+#y3{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+a{
+    text-decoration: none;
+}
+
+a:hover, a:active {
+    color: rgb(255, 213, 0);
+}
+
+
+
+
+footer {
+    background-color: black;
+    padding: 20px 0;
+    text-align: center;
+}
+
+
+.contact-info p, .social-media a {
+    margin: 5px 0;
+    font-size: 1.1em;
+}
+
+.social-media a {
+    text-decoration: none;
+    color: #b2b2b2;
+    margin: 0 10px;
+}
+
+.social-media a:hover {
+    color: rgb(255, 213, 0);
+}
+
+body {
+    background-color:grey;
+}

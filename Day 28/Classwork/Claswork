@@ -1,0 +1,6 @@
+def manual_index(main_str, search_str):
+    for x in range(len(main_str)):
+        if main_str[x] == search_str:
+            print(x)
+
+manual_index("გამარჯობა", "მ")
