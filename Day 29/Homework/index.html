@@ -1,0 +1,60 @@
+<!--id მეშვეობით ელემენტი ხდება უნიკალური, ერთი კონკრეტული id გამოიყენება მხოლოდ ერთ ელემენტზე. CSS-ში  ელემენტის გასტილვა id-ით ხდება.
+როდესაც გვინდა, რომ რამდენიმე ელემენტს ზუსტად ერთნაირი დიზაინი ქონდეთ, გამოვიყენებთ class.--> 
+
+<p id="p1" style="color:red;">giorgi</p>
+<p id="p2" style="color:green;">jioshvili</p>
+<p id="p3" style="color:yellowgreen;">goa</p>
+<p id="p4" style="color:aqua;">goa academy</p>
+<p id="p5" style="color:purple;">giorgi jioshvili</p>
+
+<button style="background-color:black;" class="color-black">click me</button>
+<button style="background-color:black;" class="color-black">tap me</button>
+<button style="background-color:black;" class="color-black">click</button>
+<button style="background-color:black;" class="color-black">tap</button>
+<button style="background-color:black;" class="color-black">click me</button>
+
+<!-- css specificity პრიორიტეტები: მაღალი პრიორიტეტი არის Inline Style, ხოლო დაბალი პრიორიტეტი Element.
+1) Inline Style
+2) Id
+3) Class
+4) Element -->
+
+<button id="button1" class="color-blue">Click me</button>
+
+<!--rgb მეშვეობით ჩვენ შეგვიძლია შევქმნათ ფერი. ჩვენ, რომ შევქმნათ ფერი უნდა გამოვიყენოთ rgb.თითოეული მათგანი შეიძლება გაწერილი იყოს ამ დიაპაზონში 0-დან 255-ჩათ.
+rgb - ანუ red green blue. -->
+
+<div id="div1">
+    <p>giorgi</p>
+    <p>jioshvili</p>
+    <button>click</button>
+    <button>click me</button>
+</div>
+
+<div id="div2">
+    <p>goa</p>
+    <p>goa academy</p>
+    <button>tap</button>
+    <button>tap me</button>
+</div>
+
+<div id="div3">
+    <p>gio</p>
+    <p>giorgi jioshvili</p>
+    <button>tap</button>
+    <button>tap me</button>
+</div>
+
+<div id="div4">
+    <p>Goal-Oriented-Academy</p>
+    <p>gio</p>
+    <button>tap</button>
+    <button>tap me</button>
+</div>
+
+<div id="div5">
+    <p>gio</p>
+    <p>gio</p>
+    <button>tap</button>
+    <button>tap me</button>
+</div>

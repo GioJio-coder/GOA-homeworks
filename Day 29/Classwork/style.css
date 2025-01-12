@@ -1,0 +1,47 @@
+.red-text {
+    background-color:yellow;
+}
+
+#p1 {
+    color:red;
+}
+
+#p2 {
+    color:red;
+}
+
+p {
+    color:red;
+}
+
+#p3 {
+    color:rgb(255, 255, 255);
+}
+
+#p4 {
+    color:rgb(0, 0, 0);
+}
+
+#p5 {
+    color:rgb(255, 0, 0);
+}
+
+#p6 {
+    color:rgb(0, 255, 0);
+}
+
+#p7 {
+    color:rgb(0, 0, 255);
+}
+
+#p8 {
+    color:rgb(255, 255, 0);
+}
+
+#p9 {
+    color:rgb(0, 255, 255);
+}
+
+#p10 {
+    color:rgb(255, 0, 255);
+}
