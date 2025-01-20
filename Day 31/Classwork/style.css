@@ -1,0 +1,26 @@
+#button1 {
+    background-color:#ff00ff;
+    color:#ffd900;
+}
+
+#button2 {
+    background-color:#bbff00;
+    color:#001aff;
+}
+
+#button3 {
+    background-color:#51ff00;
+    color:#008cff;
+}
+
+#div1 {
+    height:600px;
+    width:70%;
+    background-color:#001aff;
+}
+
+#div2 {
+    height:60px;
+    width:25%;
+    background-color:#ffd900;
+}
