@@ -1,0 +1,60 @@
+#p1 {
+    text-decoration:underline;
+}
+
+#p2 {
+    text-decoration:underline;
+}
+
+#p3 {
+    text-decoration:underline;
+}
+
+#h1 {
+    text-decoration:overline;
+}
+
+#h2 {
+    text-decoration:overline underline;
+}
+
+.warning {
+    text-decoration:wavy;
+}
+
+#h4 {
+    text-shadow:5px 5px;
+}
+
+#h5 {
+    text-shadow:5px 5px;
+}
+
+#h6 {
+    text-shadow:5px 5px;
+}
+
+#p4 {
+    text-shadow:black 5px 5px;
+}
+
+#p5 {
+    text-decoration:underline pink;
+    text-shadow:5px 5px purple;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+#p5 {
+    font-family:"Roboto ital wght";
+}
+
+#p4 {
+    font-family:"Roboto ital wght";
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+#h6 {
+    font-family:"Roboto Slab wght";
+}

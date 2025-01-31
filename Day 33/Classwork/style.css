@@ -1,0 +1,54 @@
+#p1 {
+    text-align:right;
+    text-decoration:underline dashed #008000;
+}
+
+#p2 {
+    text-align:center;
+    text-decoration:overline;
+}
+
+#p3 {
+    color:#ff0000;
+}
+
+#p4 {
+    text-align:center;
+    text-decoration:underline ;
+}
+
+#p5 {
+    text-decoration:dashed #008000;
+    text-align:right;
+}
+
+#p6 {
+    text-decoration:overline;
+}
+
+#p7 {
+    text-decoration:overline;
+}
+
+#p8 {
+    text-align:right;
+    color:#008000;
+    text-decoration:overline #008000;
+}
+
+#p9 {
+    text-align:center;
+    color:#808080;
+    text-decoration:overline #808080;
+}
+
+#p10 {
+    text-align:right;
+    text-decoration:underline dashed #008000;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+#p10 {
+    font-family:"Roboto ital wght";
+}
