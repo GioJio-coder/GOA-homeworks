@@ -1,0 +1,67 @@
+#a1:hover {
+    font-size:20px;
+    font-weight:20px;
+    color:rgb(0, 0, 0);
+}
+
+#a2:hover {
+    font-size:20px;
+    font-weight:20px;
+    color:rgb(0, 0, 255);
+}
+
+#a3:hover {
+    font-size:20px;
+    font-weight:20px;
+    color:rgb(0, 255, 0);
+}
+
+#a4:hover {
+    font-size:20px;
+    font-weight:20px;
+    color:rgb(255, 0, 0);
+}
+
+#a5:hover {
+    font-size:20px;
+    font-weight:20px;
+    color:rgb(255, 255, 0);
+}
+
+
+
+
+#a1:active {
+    font-size:10px;
+    font-weight:10px;
+    color:rgb(0, 0, 0);
+}
+
+
+#a2:hover {
+    font-size:10px;
+    font-weight:10px;
+    color:rgb(255, 255, 0);
+}
+
+#a3:hover {
+    font-size:10px;
+    font-weight:10px;
+    color:rgb(255, 0, 0);
+}
+
+#a4:hover {
+    font-size:10px;
+    font-weight:10px;
+    color:rgb(0, 0, 255);
+}
+
+#a5:hover {
+    font-size:10px;
+    font-weight:10px;
+    color:rgb(0, 0, 255);
+}
+
+#table1 {
+    border:green solid 5px;
+}
