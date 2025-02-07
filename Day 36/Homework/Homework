@@ -1,0 +1,10 @@
+def find_smallest_int(arr):
+    for num in arr:
+        if num < smallest:
+            smallest = num
+    return smallest
+
+
+
+def string_to_number(s):
+    return int(s)
