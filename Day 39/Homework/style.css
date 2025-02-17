@@ -1,0 +1,41 @@
+input[type="text"] {
+    border:dashed;
+    background-color:red;
+    padding:10px;
+}
+
+input[type="submit"]:hover {
+    color:red;
+    border-radius:10px;
+}
+
+#button1 {
+    color:red;
+}
+
+#div1 {
+    padding:10px;
+}
+
+#p1 {
+    padding-left:3px;
+    padding-right:5px;
+    padding-bottom:10px;
+}
+
+#p2 {
+    margin:10px;
+}
+
+#button2 {
+    border:dashed;
+    padding:10px;
+}
+
+#li1 {
+    margin:10px;
+}
+
+#p4 {
+    margin:-10px;
+}
