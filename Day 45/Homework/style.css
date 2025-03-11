@@ -1,0 +1,42 @@
+body {
+    margin: 20px;
+    text-align: center;
+}
+
+.container {
+    display: flex; 
+    flex-direction: row; 
+    justify-content: space-between; 
+    align-items: flex-start; 
+    flex-wrap: wrap; 
+    height: 300px; 
+    border: 2px solid black;
+    padding: 10px;
+    margin: 20px;
+}
+
+item {
+    text-align: center;
+    padding: 20px;
+    background-color: lightblue;
+    border: 1px solid blue;
+}
+
+.reversed {
+    flex-direction: row-reverse;
+}
+
+.bottom {
+    align-self: flex-end;
+}
+
+.centered {
+    justify-content: center;
+    align-items: center;
+    height: 300px;
+}
+
+.column {
+    flex-direction: column;
+    align-items: center; 
+}
