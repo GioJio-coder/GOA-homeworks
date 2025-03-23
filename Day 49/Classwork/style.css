@@ -1,0 +1,26 @@
+.box:active {
+    width: 100px;
+    height: 100px;
+    background-color: blue;
+    margin: 50px;
+    transform: translate('30deg');
+}
+
+.box {
+    width: 200px;
+    height: 100px;
+    background-color: black;
+    color: white;
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    transition: font-size 1s, background-color 2s, color 2s;
+}
+
+.box:active {
+    font-size: 25px;
+    background-color: white;
+    color: black;
+}
