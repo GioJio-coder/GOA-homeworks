@@ -1,0 +1,174 @@
+body {
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color:gray;
+}
+
+.animation-container {
+    position: relative;
+    width: 800px;
+    height: 300px;
+}
+
+.bubble:active {
+    position: absolute;
+    border-radius: 50%;
+    background-color: blue;
+    animation-name: ball  1.5s ;
+}
+
+@keyframes ball {
+    0%, 100% {
+        transform: translateY(0);
+    }
+    50% {
+        transform: translateY(-150px);
+    }
+}
+
+
+
+
+body {
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.ball-container {
+    position: relative;
+    width: 100%;
+    height: 400px;
+}
+
+.ball:active {
+    position: absolute;
+    top: 50%;
+    left: 0;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: blue;
+    animation-name: ball  3 (0.5, 0.05, 1, 0.5);
+}
+
+@keyframes ball {
+    0% {
+        transform: translate(0, 0) scale(0.6);
+    }
+    25% {
+        transform: translate(25%, -150px) scale(0.8);
+    }
+    50% {
+        transform: translate(50%, 0) scale(1.2);
+    }
+    75% {
+        transform: translate(75%, -120px) scale(0.8);
+    }
+    100% {
+        transform: translate(100%, 0) scale(0.6);
+    }
+}
+
+
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color:  white;
+}
+
+.animation {
+    width: 400px;
+    height: 200px;
+    position: relative;
+}
+
+.circle:active {
+    width: 50px;
+    height: 50px;
+    background-color: orange;
+    border-radius: 50%;
+    position: absolute;
+    animation-name: Circle 4s ;
+}
+
+@keyframes Circle {
+    0% {
+    left: 0;
+    top: 0;
+    transform: scale(0.5);
+    }
+    25% {
+    left: 100px;
+    top: 50px;
+    transform: scale(1);
+    }
+    50% {
+    left: 200px;
+    top: 100px;
+    transform: scale(1.5);
+    }
+    75% {
+    left: 300px;
+    top: 50px;
+    transform: scale(1);
+    }
+    100% {
+    left: 350px;
+    top: 0;
+    transform: scale(0.5);
+    }
+}
+
+
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: white;
+}
+
+.container {
+    width: 100%;
+    height: 200px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.ball:active {
+    width: 50px;
+    height: 50px;
+    background-color: yellow;
+    border-radius: 50%;
+    position: absolute;
+    animation-name: Circle 4s ;
+}
+
+@keyframes Circle {
+    0% {
+    left: 10%;
+    transform: scale(0.5);
+    }
+    50% {
+    left: 50%;
+    transform: scale(1.5);
+    }
+    100% {
+    left: 90%;
+    transform: scale(0.5);
+    }
+}
