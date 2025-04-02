@@ -32,6 +32,28 @@
 
 # print(name + " " + str(age))
 
+print("giorgi")
+print("giorgi")
+print("giorgi")
+print("giorgi")
+print("giorgi")
+print("giorgi")
+print("giorgi")
+print("giorgi")
+print("giorgi")
+print("giorgi")
+print("giorgi")
+print("giorgi")
+print("giorgi")
+print("giorgi")
+print("giorgi")
+print("giorgi")
+print("giorgi")
+print("giorgi")
+print("giorgi")
+print("giorgi")
+
+
 
 
 
