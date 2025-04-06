@@ -1,0 +1,38 @@
+nav {
+    background-color: rgb(155, 72, 72);;   /*navbar*/
+    padding: 10px;
+}
+nav ul {
+    margin: 0;
+    padding: 0;     /*ნავბარის განლაგება*/
+    display: flex;
+}
+
+nav li {
+    margin-right: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #333;
+}
+
+nav a:hover {
+    color: #007bff;
+}
+
+#button {
+    border:solid;
+    border-radius: 10px;
+    background-color: rgb(86, 98, 246);
+}
+
+#h1 {
+    text-align:center; /*სათაურის განლაგება*/
+}
+
+body {
+    background-color:rgb(155, 72, 72);; /*ვებსაიტის ფერის ფონი*/
+}
+
+
