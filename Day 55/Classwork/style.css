@@ -1,0 +1,15 @@
+@keyframes aslide {
+    0% {
+    transform: translateX(0);
+    }
+    100% {
+    transform: translateX(200px);
+    }
+}
+
+.animated-element {
+    height:100px;
+    width:100px;
+    background-color:aqua;
+    animation: aslide 5s linear infinite;
+}
