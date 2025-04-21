@@ -419,3 +419,10 @@ print(person["name"])
 # 54) Add a new key-value pair to a dictionary
 person["city"] = "Batumi"
 print(person)
+
+# 55) CODEWARS
+name = "codewa.rs"
+
+# 56) CODEWARS
+def get_char(number):
+    return chr(number)
