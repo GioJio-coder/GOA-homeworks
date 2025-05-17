@@ -1,0 +1,67 @@
+<script>
+    let hobby = prompt("What is your favorite hobby?");
+    alert("Your favorite hobby is:");
+
+    let firstName = prompt("Enter your first name:");
+    let lastName = prompt("Enter your last name:");
+    let fullName = firstName + " " + lastName;
+    alert("Your full name is: ");
+
+    let userMessage = prompt("Enter a message to display on the page:");
+    document.getElementById("messageP").textContent = userMessage;
+
+    let emoji = prompt("What is your favorite emoji?");
+    alert("Your favorite emoji is: ");
+
+    let Title = prompt("Enter a word for the page title:");
+    document.title = Title;
+
+
+
+
+    document.getElementById('alert').function(e) {
+    let input = document.getElementById('alert').value;
+    alert("You entered: " + input);
+    };
+
+    document.getElementById('colorForm').function(e) {
+    let color = document.getElementById('background-Color').value;
+    document.body.style.backgroundColor = color;
+    };
+
+    document.getElementById('name').function(e) {
+    let firstName = document.getElementById('firstName').value;
+    let lastName = document.getElementById('lastName').value;
+    let fullName = firstName + " " + lastName;
+    document.getElementById('Name').textContent = fullName;
+    };
+</script>
+
+<form id="alert">
+    <label for="alertInput">Enter something:</label>
+    <input type="text" id="alertInput" required>
+    <button type="submit">Show Alert</button>
+</form>
+
+
+
+<form id="color">
+    <label for="background">Choose background color:</label>
+    <input type="color0" id="background" name="background">
+    <button type="submit0">Change Background</button>
+</form>
+
+
+
+
+<form id="name">
+    <label for="firstName">First Name:</label>
+    <input type="text" id="firstName" required>
+
+    <label for="lastName">Last Name:</label>
+    <input type="text" id="lastName" required>
+
+    <button type="submit">Show Full Name</button>
+</form>
+
+<h1 id="Name"></h1>
