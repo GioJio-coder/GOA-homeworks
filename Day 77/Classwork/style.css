@@ -1,0 +1,16 @@
+#myImage {
+    width: 300px;
+    margin-top: 20px;
+    display: none; 
+    }
+
+button {
+    background-color: red;
+    color: white;
+    padding: 10px 20px;
+    font-size: 18px;
+    border: none;
+    border-radius: 10px;
+    }
+
+    
