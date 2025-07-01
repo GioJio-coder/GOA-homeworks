@@ -1,0 +1,46 @@
+h1, h3 {
+    color: green;
+    border: 1px solid black;
+    }
+    h1 { font-size: 30px; }
+    h3 { font-size: 24px; }
+
+    /* Homework 3 */
+    img {
+    width: 200px;
+    border-radius: 10px;
+    border: 2px solid ;
+    }
+
+    /* Homework 5 */
+    li:nth-child(even) {
+    background-color: skyblue;
+    }
+    li:nth-child(odd) {
+    background-color: lightgray;
+    }
+
+    /* Homework 4 Circle Styles */
+    .circle {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background: purple;
+    position: relative;
+    margin: 5px;
+    }
+
+    #movingBox {
+    width: 100px;
+    height: 100px;
+    background: gray;
+    margin-top: 10px;
+    position: relative;
+    }
+
+    #toggleDiv {
+    width: 150px;
+    height: 100px;
+    background: pink;
+    margin-top: 10px;
+    }
