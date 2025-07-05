@@ -1,0 +1,136 @@
+body{
+    background-color: black;
+    color:red;
+    text-shadow: 2px 2px 8px #FF0000
+    
+}
+
+#go-back-btn{
+    border: none;
+    color: white;
+    background-color: red;
+    text-shadow:2px 2px 8px #f9fefb ;
+    border-radius: 20px;
+    font-weight: bolder;
+    cursor: pointer;
+
+}
+
+#header{
+    text-align: center;
+    
+}
+
+#about{
+    text-align: center;
+    
+    margin-bottom: 100px;
+
+}
+
+img{
+    object-fit: cover;
+    border: 6px double red;
+    border-radius: 8px;
+    box-shadow: 0 0 10px red;
+    transition: 1s ease;
+}
+
+img:hover{
+    transform: scale(1.1);
+}
+
+#minecraft{
+    width: 500px;
+    height: 250px;
+}
+
+#minecraft1{
+    width: 500px;
+    height: 250px;
+}
+
+
+#row{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+#walkthrough{
+    margin-top: 100px;
+    text-align: center;
+}
+
+
+#vid-cont{
+    display: flex;
+    justify-content: center;
+}
+
+footer{
+    margin-top:80px ;
+    text-align: center;
+}
+
+#header1{
+    
+    margin-bottom: 100px;
+}
+
+
+hr {
+    height: 4px;
+    background-color: red;
+    border: none;
+}
+
+
+
+#submit_btn {
+    border: none;
+    color: white;
+    background-color: red;
+    text-shadow: 2px 2px 8px #f9fefb;
+    font-weight: bolder;
+    cursor: pointer;
+    padding: 10px 20px;
+    border-radius: 5px;
+}
+
+#inp {
+    width: 200px;
+    height: 100px;
+    color: white;
+    background-color: red;
+    border: none;
+    padding: 5px;
+    }
+
+#name {
+    height: 25px;
+    width: 200px;
+    color: white;
+    background-color: red;
+    border: none;
+    padding: 5px;
+}
+
+::placeholder {
+    color: white;
+    opacity: 1;
+}
+
+#reviews {
+    margin-top: 50px;
+    padding: 10px;
+    border-top: 2px solid red;
+    color: white;
+}
+
+.review {
+    margin-bottom: 20px;
+    background-color: gray;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 0 0 5px red;
+}
