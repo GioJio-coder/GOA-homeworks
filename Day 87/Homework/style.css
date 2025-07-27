@@ -1,0 +1,73 @@
+@media (max-width: 1024px) {
+    .Main {
+        flex-direction: column;
+        height: auto;
+        padding: 20px;
+    }
+
+    .DJ, .JP {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .Daniel, .Jonathan, .Jeanette, .Patrick, .Kira {
+        width: 90%;
+        height: auto;
+    }
+
+    .Kira {
+        height: auto;
+    }
+
+    .Daniel, .Patrick {
+        flex-direction: column;
+    }
+
+    .DanielMain p,
+    .PatrickMain p,
+    .JeanetteMain p,
+    .JonathanMain p,
+    .KiraMain p {
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+
+    h2 {
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+
+    .upperPart {
+        flex-direction: column;
+        align-items: flex-start;
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+
+    img {
+        margin-bottom: 10px;
+    }
+}
+
+@media (max-width: 600px) {
+    .Daniel, .Jonathan, .Jeanette, .Patrick, .Kira {
+        width: 100%;
+    }
+
+    .Main {
+        gap: 10px;
+    }
+
+    .DJ, .JP, .LeftPart {
+        gap: 10px;
+    }
+
+    img {
+        height: 35px;
+        width: 35px;
+    }
+
+    .Daniel, .Patrick, .Kira {
+        padding: 10px 0;
+    }
+}
