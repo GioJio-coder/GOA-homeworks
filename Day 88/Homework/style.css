@@ -1,0 +1,208 @@
+/* Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f8f3f3;
+    padding: 20px;
+    color: #333;
+}
+
+.Main {
+    max-width: 1200px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+}
+
+/* Top Section */
+.Top {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 30px;
+}
+
+.TopLeft {
+    flex: 1 1 300px;
+}
+
+.TopLeft .LoveProducts {
+    font-size: 36px;
+    color: #511c92;
+    line-height: 1.2;
+    margin-bottom: 20px;
+}
+
+.TopLeft .ExtraInfo {
+    font-size: 16px;
+    color: #555;
+    max-width: 400px;
+}
+
+/* Reviews */
+.TopRight {
+    flex: 1 1 300px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.Review {
+    background-color: #f7f2ff;
+    padding: 15px 20px;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.Review div img {
+    width: 20px;
+}
+
+/* Bottom Cards */
+.Bottom {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    justify-content: space-between;
+}
+
+.Bottom > div {
+    background-color: #511c92;
+    color: white;
+    padding: 25px;
+    border-radius: 12px;
+    flex: 1 1 300px;
+}
+
+.CardTop {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    margin-bottom: 15px;
+}
+
+.CardTop img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .Top {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    .TopRight {
+        align-items: center;
+    }
+
+    .Bottom {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .Bottom > div {
+        width: 100%;
+    }
+
+    .TopLeft .LoveProducts {
+        font-size: 28px;
+    }
+}
+
+
+
+@media (max-width: 1024px) {
+    .Top {
+        gap: 100px;
+    }
+
+    .Review {
+        width: 250px;
+    }
+}
+
+@media (max-width: 768px) {
+    .Main {
+        height: auto;
+        padding: 40px 20px;
+    }
+
+    .Top {
+        flex-direction: column;
+        align-items: center;
+        gap: 40px;
+    }
+
+    .LoveProducts {
+        width: 100%;
+        text-align: center;
+        font-size: 24px;
+    }
+
+    .ExtraInfo {
+        width: 100%;
+        text-align: center;
+        font-size: 14px;
+    }
+
+    .TopRight {
+        align-items: center;
+    }
+
+    .Review {
+        flex-direction: column;
+        height: auto;
+        width: 100%;
+        padding: 10px;
+        text-align: center;
+    }
+
+    .Review:nth-child(2),
+    .Review:nth-child(3) {
+        margin-left: 0;
+    }
+
+    .Bottom {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .Colton,
+    .Irene,
+    .Anne {
+        width: 90%;
+        height: auto;
+        padding: 20px;
+    }
+
+    .CardTop {
+        margin-left: 0;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    .Colton p,
+    .Irene p,
+    .Anne p {
+        width: 100%;
+        text-align: center;
+    }
+
+    .Irene,
+    .Anne {
+        margin-top: 0;
+    }
+}
