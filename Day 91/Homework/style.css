@@ -1,0 +1,50 @@
+.cakes {
+    display:grid;
+    grid-template-columns:repeat(3,2fr);
+    gap:25px;
+}
+
+.img {
+    height:250px;
+    width: 250px;
+    border:5%;
+    border-radius:20px;
+}
+
+.btn {
+    display: flex;
+    justify-content:center;
+    align-items:center;
+    border-radius:25px;
+    border:1px solid;
+}
+
+.price {
+    color:orange;
+}
+
+.desserts {
+    display: flex;
+    gap:25px;
+    align-items:flex-start;
+    justify-content:center;
+    height:100vh;
+}
+
+body {
+    background-color:hsl(13, 31%, 94%) ;
+}
+
+.right {
+    width:250px;
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    justify-content:center;
+}
+
+@media (max-width: 600px) {
+body {
+    font-size: 10px;
+}
+} 
