@@ -1,0 +1,91 @@
+body {
+    background-color: #282c34; 
+    color: white;
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+}
+
+.container {
+    display: flex;
+    width: 800px; 
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+}
+
+.form-section {
+    flex: 1;
+    background-color: #363a45; 
+    padding: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.title {
+    color: white;
+    margin-bottom: 30px;
+    font-size: 24px;
+    text-align: center;
+}
+
+#registrationForm input {
+    width: 100%;
+    padding: 15px;
+    margin-bottom: 20px;
+    border: none;
+    border-radius: 3px;
+    font-size: 16px;
+    color: white;
+    box-sizing: border-box; 
+}
+
+#name {
+    background-color: #4b5262; 
+}
+#facebookLink, #email, #password {
+    background-color: #387c56; 
+}
+
+
+.submit-btn {
+    background-color: #2b2e35; 
+    color: white;
+    padding: 10px 30px;
+    border: 1px solid #555;
+    border-radius: 3px;
+    font-weight: bold;
+    transition: background-color 0.3s;
+    margin-top: 10px;
+}
+
+.submit-btn:hover {
+    background-color: #3c4048;
+}
+
+.output-section {
+    flex: 1;
+    background-color: #387c56; 
+    padding: 40px;
+}
+
+.output-section h3 {
+    margin-top: 0;
+    margin-bottom: 30px;
+    font-size: 20px;
+    color: white;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+    padding-bottom: 10px;
+}
+
+.output-section p {
+    font-size: 18px;
+    line-height: 2.5;
+    margin: 0;
+}
+
+.output-section span {
+    font-weight: bold;
+}
