@@ -1,0 +1,19 @@
+{
+  "name": "classwork",
+  "version": "1.0.0",
+  "description": "",
+  "main": "Classwork.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "dependencies": {
+    "export": "^0.1.337",
+    "express": "^5.2.1",
+    "import": "^0.0.6",
+    "morgan": "^1.10.1"
+  }
+}
