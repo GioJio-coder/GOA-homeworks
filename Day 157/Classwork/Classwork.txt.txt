@@ -1,0 +1,6 @@
+db.films_collection.find({"genres": ["Sci-Fi", "advanture", "Drama"]});
+db.films_collection.find({"genres": "Drama"});
+db.films_collection.find({"genres": { $all: ["Drama", "Advanture"]}});
+
+db.films_collection.find({genres: {$elemMatch: { $eq: "Advanture" }}})
+db.films_collection.countDocuments({ genres: { $all: ["Sci-Fi", "Advanture"] } });
