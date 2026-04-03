@@ -1,0 +1,44 @@
+db.products.insertOne(
+  "name": "laptop",
+  "Brand": "Lenovo"
+);
+
+
+db.products.insertMany(
+  {
+    "name": "laptop",
+    "Brand": "Samsung"
+  },
+  {
+    "name": "phone",
+    "Brand": "iphone 13 pro max"
+  },
+  {
+    "name": "laptop",
+    "Brand": "Dell"
+  }
+);
+
+
+db.products.updateOne(
+  { "name": "laptop" }, 
+  { $set: { "Brand": "HP" } }
+);
+
+
+db.film_collection.updateOne(
+  { title: "Inception" }, 
+  {
+    $set: { "genres.0": "Sci-Fi Thriller" }, 
+    $push: { genres: "Mystery" }     
+  }        
+);
+db.people_collection.updateOne(
+  {}, 
+  {
+    $set: {
+      "bio.roll": "Senior Developer", 
+      "bio.birthPlace": "Georgia"           
+    }
+  }
+);

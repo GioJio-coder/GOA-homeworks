@@ -1,0 +1,66 @@
+db.users.insertOne({
+  name: "Ana",
+  age: 24,
+  city: "Tbilisi"
+});
+
+db.products.insertOne({
+  name: "Laptop",
+  price: 1200,
+  inStock: true
+});
+
+db.customers.insertOne({
+  name: "David",
+  age: 31,
+  address: {
+    city: "Batumi",
+    street: "Rustaveli",
+    number: 10
+  }
+});
+
+db.products.insertMany([
+  { name: "Phone", price: 500, category: "Electronics" },
+  { name: "laptop", price: 300, category: "Electronics" },
+  { name: "Headphones", price: 75, category: "Accessories" },
+  { name: "Keyboard", price: 100, category: "Accessories" }
+]);
+
+db.students.insertMany([
+  {
+    name: "Saba",
+    age: 18,
+    courses: ["Math", "Geography"]
+  },
+  {
+    name: "Giorgi",
+    age: 20,
+    courses: ["Biology", "Chemistry"]
+  },
+  {
+    name: "Luka",
+    age: 24,
+    courses: ["History", "English"]
+  }
+]);
+
+db.users.updateOne(
+  { name: "Ana" },
+  { $set: { age: 25 } }
+);
+
+db.users.updateOne(
+  { name: "Giorgi" },
+  { $set: { city: "Batumi" } }
+);
+
+db.customers.updateOne(
+  { name: "David" },
+  { $set: { "address.city": "Kutaisi" } }
+);
+
+db.customers.updateOne(
+  { name: "Ana" },
+  { $set: { "address.street": "Chavchavadze" } }
+);
