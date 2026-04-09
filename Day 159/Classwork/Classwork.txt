@@ -1,0 +1,11 @@
+db.student_colletion.updateOne({ "name": "fZgFcDEwrU"}, { "$push": { "tags": "new_tag"}});
+db.student_collection.updateOne({ "name": "fZgFcDEwrU"}, { "$set": { "rating ": 5} }, { "upsert": true})
+
+
+
+db.users.findAndModify({ 
+    query: { email: "gio@example.com" },
+    update: { $set: {lastlogin: new Date() } },
+    new: true,
+    upsert: true
+});

@@ -1,0 +1,91 @@
+db.collection.updateOne(
+    { id: 1 },
+    { $set: { price: 80 } }
+);
+
+db.collection.updateOne(
+    { price: { $gt: 100 } },
+    { $set:  false }
+);
+
+db.collection.updateOne(
+    { rating: { $gt: 3 } },
+    { $set: { status: "active" } }
+);
+
+db.collection.updateOne(
+    { $inc: { price: 10 } }
+);
+
+
+db.collection.updateMany(
+    { price: { $gt: 150 } },
+    { $set:  false  }
+);
+
+db.collection.updateMany(
+    { price: { $lt: 200 } },
+    { $set: { discount: 20 } }
+);
+
+db.collection.updateMany(
+    { category:  false  },
+    { $set: { category: "general" } }
+);
+
+
+db.collection.findOneAndUpdate(
+    { $set: false  },
+);
+
+db.collection.findOneAndUpdate(
+    { $inc: { price: 250 } },
+    { sort: { price: -1 }}
+);
+
+db.collection.updateOne(
+    { rating: { $lt: 1 } },
+    { $set: { status: "low_quality" } }
+);
+
+db.collection.findOneAndUpdate(
+    { $set: { reviewed: true } },
+);
+
+
+
+db.collection.updateOne(
+    { id: 1 },
+    {
+    $set: {
+        name: "UpdatedName",
+        price: 300
+    }
+    },
+    { upsert: true }
+);
+
+db.collection.updateOne(
+    { name: "lItem" },
+    {
+    $set: {
+        price: 500,
+    }
+    },
+    { upsert: true }
+);
+
+db.collection.updateOne(
+    { id: 3 },
+    {
+    $set: { tags: "new" }
+    },
+    { upsert: true }
+);
+
+db.collection.updateOne(
+    {
+    $set: { price: 800 }
+    },
+    { upsert: true }
+);
