@@ -1,0 +1,62 @@
+replaceOne უკეთესია, რადგან ოპერაცია ერთ ნაბიჯში სრულდება,
+delete და insert არის ორი ცალკე ნაბიჯი და შეიძლება მათ შორის შეცდომა მოხდეს
+delete, insert შემთხვევაში id იცვლება. ერთი ოპერაცია ყოველთვის ჯობია ორს
+ნაკლები რისკია მონაცემების დაკარგვის, თუ delete შესრულდა და insert ვერ შესრულდა, მონაცემი დაიკარგება.
+
+
+
+db.products.deleteOne({ id: 1 })
+
+db.products.deleteOne({ price: { $gt: 50 } })
+
+db.products.deleteOne({ in_stock: false })
+
+db.products.deleteOne({ rating: null })
+
+db.products.deleteOne({ tags: "sale" })
+
+
+db.products.deleteMany({ price: { $lt: 100 } })
+
+db.products.deleteMany({ in_stock: false })
+
+db.products.deleteMany({ rating:  false  })
+
+db.products.deleteMany({
+  price: { $gt: 150 },
+  in_stock: false
+})
+
+
+db.products.replaceOne(
+  { id: 3 },
+  { id: 3, name: "New Product", price: 200 }
+)
+
+db.products.replaceOne(
+  { price: { $gt: 250 } },
+  { name: "Product", price: 250 }
+)
+
+db.products.replaceOne(
+  { id: 5 },
+  {
+    id: 5,
+    name: "Advanced Product",
+    price: 400,
+    details: {
+      brand: "BrandD",
+    }
+  }
+)
+
+db.products.replaceOne(
+  { id: 999 },
+  { id: 999, name: "Ghost", price: 0 }
+)
+
+db.products.replaceOne(
+  { id: 999 },
+  { id: 999, name: "Ghost Product", price: 0 },
+  { upsert: true }
+)

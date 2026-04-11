@@ -1,0 +1,15 @@
+db.users.deleteOne({ name: "John" })
+db.products.deleteMany({ price: { $lt: 10 }})
+db.collection.deleteMany({})
+
+db.collectionName.replaceOne(
+    { name: "zYynvAuGVp"},
+    {
+        name: "zYynvAuGVp",
+        age: 10,
+        email: "name@example.com",
+        city: "Tbilisi",
+        role: "developer",
+        isStudent: "false"
+    }
+)
