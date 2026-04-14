@@ -1,0 +1,8 @@
+use main_db
+db.users.createIndex({ email: 1})
+db.users.getIndexes()
+db.users.find({ email: "example@gmail.com"}).explain("executionStats");
+
+db.products.createIndex({ category: 1, price: -1});
+db.products.find({ category: "electronics"}).sort({ price: -1 });
+db.products.find({ category: "electronics"}).sort({ price: -1 }).explain("executionStats");
