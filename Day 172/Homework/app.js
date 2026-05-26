@@ -6,6 +6,7 @@ import phonesRouter from "./Router/phones.route.js";
 import globalErrorHandler from "./controllers/error.controller.js";
 import authRouter from "./Router/auth.route.js";
 import cookieParser from "cookie-parser";
+import cors from "cors";
 
 const app = express();
 
@@ -14,6 +15,10 @@ dotenv.config();
 app.use(express.json());
 app.use(morgan("dev"));
 app.use(cookieParser());
+
+app.use(cors({
+    origin: process.env.FRONTEND
+}));
 
 const router = express.Router();
 
