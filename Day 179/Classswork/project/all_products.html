@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="ka">
+
+<head>
+    <meta charset="UTF-8">
+    <title>ყველა პროდუქტი</title>
+</head>
+
+<body>
+    <h1>პროდუქტების კატალოგი</h1>
+    <ul>
+        {% for product in products %}
+        <li>
+            <a href="/product/{{ product.id }}/">{{ product.title }}</a> - {{ product.price }} ₾
+        </li>
+        {% endfor %}
+    </ul>
+</body>
+
+</html>

@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="ka">
+
+<head>
+    <meta charset="UTF-8">
+    <title>{{ admin.admin_name }}</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+
+<body class="bg-gray-50 min-h-screen flex items-center justify-center p-4">
+    <div class="bg-white p-8 rounded-xl shadow-md max-w-sm w-full border border-gray-100 text-center">
+        <div
+            class="w-20 h-20 bg-indigo-100 text-indigo-600 rounded-full flex items-center justify-center text-3xl font-bold mx-auto mb-4 capitalize">
+            {{ admin.admin_name|slice:":1" }}
+        </div>
+        <h1 class="text-2xl font-bold text-gray-800 capitalize">{{ admin.admin_name }}</h1>
+        <p class="text-indigo-600 font-medium text-sm px-3 py-1 bg-indigo-50 inline-block rounded-full mt-2">{{
+            admin.role }}</p>
+        <div class="mt-6 text-left border-t pt-4 text-gray-600 text-sm space-y-2">
+            <p><strong>ID:</strong> {{ admin.id }}</p>
+            <p><strong>ელ-ფოსტა:</strong> {{ admin.email }}</p>
+        </div>
+        <a href="/admins/" class="block mt-6 text-sm text-indigo-600 hover:underline">
+            &larr; სიაში დაბრუნება
+        </a>
+    </div>
+</body>
+
+</html>
