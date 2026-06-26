@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="ka">
+
+<head>
+    <meta charset="UTF-8">
+    <title>პროდუქტები</title>
+</head>
+
+<body>
+    <h1>ჩვენი პროდუქტები</h1>
+    <ul>
+        {% for product in products %}
+        <li>
+            <a href="{% url 'product_detail' product.id %}">
+                {{ product.title }}
+            </a>
+            - {{ product.price }} ლარი
+        </li>
+    </ul>
+</body>
+
+</html>
