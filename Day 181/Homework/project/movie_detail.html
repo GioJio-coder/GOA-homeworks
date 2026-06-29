@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="ka">
+
+<head>
+    <meta charset="UTF-8">
+    <title>{{ movie.title }}</title>
+</head>
+
+<body>
+    <h1>{{ movie.title }}</h1>
+    <p><strong>რეჟისორი:</strong> {{ movie.director }}</p>
+    <p><strong>წელი:</strong> <a href="{% url 'movie_year' movie.id %}">{{ movie.year }}</a></p>
+    <a href="{% url 'movie_list' %}">უკან დაბრუნება</a>
+</body>
+
+</html>
