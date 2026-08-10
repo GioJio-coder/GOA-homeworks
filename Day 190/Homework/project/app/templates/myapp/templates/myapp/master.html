@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="ka">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- დინამიური სათაურის ბლოკი -->
+    <title>{% block title %}ჩემი ვებ-საიტი{% endblock %}</title>
+    
+    <style>
+        body { font-family: Arial, sans-serif; margin: 0; padding: 0; background-color: #f4f4f4; }
+        header { background: #333; color: #fff; padding: 15px 20px; }
+        nav a { color: white; margin-right: 15px; text-decoration: none; }
+        .container { padding: 20px; background: white; min-height: 80vh; max-width: 1000px; margin: 20px auto; }
+        footer { background: #222; color: #ccc; text-align: center; padding: 10px; position: fixed; bottom: 0; width: 100%; }
+    </style>
+    
+    {% block extra_css %}{% endblock %}
+</head>
+<body>
+
+    <!-- საერთო ნავიგაცია (Header) -->
+    <header>
+        <h2>My Django App</h2>
+        <nav>
+            <a href="{% url 'home' %}">მთავარი</a>
+            <a href="{% url 'about' %}">ჩვენ შესახებ</a>
+        </nav>
+    </header>
+
+    <!-- დინამიური შინაარსის ბლოკი -->
+    <div class="container">
+        {% block content %}
+        <!-- აქ ჩაჯდება შვილეული გვერდების შინაარსი -->
+        {% endblock %}
+    </div>
+
+    <!-- საერთო ფუტერი (Footer) -->
+    <footer>
+        <p>&copy; 2026 ყველა უფლება დაცულია.</p>
+    </footer>
+
+    {% block extra_js %}{% endblock %}
+</body>
+</html>
