@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="ka">
+<head>
+    <meta charset="UTF-8">
+    <title>ტელეფონების სია</title>
+</head>
+<body>
+    <h1>ტელეფონების სია</h1>
+    <ul>
+        {% for phone in phones %}
+            <li>
+                <a href="{% url 'phone_detail' phone.id %}">
+                    {{ phone.brand }} {{ phone.model }}
+                </a>
+            </li>
+        {% empty %}
+            <li>ტელეფონები არ არის დამატებული.</li>
+        {% endfor %}
+    </ul>
+</body>
+</html>
