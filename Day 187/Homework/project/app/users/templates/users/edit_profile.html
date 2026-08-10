@@ -1,0 +1,18 @@
+{% extends 'master.html' %}
+
+{% block title %}პროფილის რედაქტირება{% endblock %}
+
+{% block content %}
+<div style="max-width: 600px; margin: 0 auto; padding: 20px; border: 1px solid #ddd; border-radius: 8px;">
+    <h2>პროფილის განახლება</h2>
+
+    <form method="POST">
+        {% csrf_token %}
+        
+        {{ form.as_p }}
+
+        <button type="submit" style="padding: 8px 16px; background-color: #28a745; color: white; border: none; border-radius: 4px; cursor: pointer;">შენახვა</button>
+        <a href="{% url 'profile' %}" style="margin-left: 10px; text-decoration: none; color: #666;">გაუქმება</a>
+    </form>
+</div>
+{% endblock %}
