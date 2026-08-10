@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="ka">
+<head>
+    <meta charset="UTF-8">
+    <title>პროდუქტის დამატება</title>
+</head>
+<body>
+    <h2>ახალი პროდუქტის დამატება</h2>
+
+    <!-- ფორმა მონაცემების გაგზავნისთვის -->
+    <form method="POST">
+        {% csrf_token %}
+        
+        <!-- Django ავტომატურად დააგენერირებს ველებს -->
+        {{ form.as_p }}
+
+        <button type="submit">ბაზაში დამატება</button>
+    </form>
+</body>
+</html>
