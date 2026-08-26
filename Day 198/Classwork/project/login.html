@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="ka">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ავტორიზაცია</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="auth-card">
+        <h2>სისტემაში შესვლა</h2>
+        <form action="/login" method="POST">
+            <div class="form-group">
+                <label for="email">ელ.ფოსტა</label>
+                <input type="email" id="email" name="email" required placeholder="example@domain.com">
+            </div>
+
+            <div class="form-group">
+                <label for="password">პაროლი</label>
+                <input type="password" id="password" name="password" required placeholder="••••••••">
+            </div>
+
+            <button type="submit" class="btn">შესვლა</button>
+        </form>
+        <p class="auth-switch">არ გაქვთ ანგარიში? <a href="register.html">რეგისტრაცია</a></p>
+    </div>
+</body>
+
+</html>
