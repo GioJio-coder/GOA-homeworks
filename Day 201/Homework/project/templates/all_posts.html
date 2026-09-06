@@ -1,0 +1,8 @@
+<h2>ყველა პოსტი</h2>
+{% for post in posts %}
+    <div>
+        <h3>{{ post.title }}</h3>
+        <p>{{ post.content }}</p>
+        <small>ავტორი: {{ post.author.username }}</small>
+    </div>
+{% endfor %}
