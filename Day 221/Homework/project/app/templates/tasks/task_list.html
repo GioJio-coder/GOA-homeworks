@@ -1,0 +1,21 @@
+<nav>
+    <span>გამარჯობა, <strong>{{ request.user.username }}</strong></span> 
+    <a href="{% url 'profile' %}">პროფილი</a>
+</nav>
+<hr>
+
+<h3>ახალი დავალების დამატება</h3>
+<form>
+    {% token %}
+    <input type="text" name="title" placeholder="შეიყვანეთ დავალება..." required>
+    <button type="submit">დამატება</button>
+</form>
+
+<h3>ჩემი დავალებები</h3>
+<ul>
+    {% for task in tasks %}
+        <li>{{ task.title }} {% if task.completed %}(შესრულებულია){% endif %}</li>
+    {% empty %}
+        <li>დავალებები ჯერ არ გაქვთ.</li>
+    {% endfor %}
+</ul>

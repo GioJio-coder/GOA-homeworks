@@ -1,0 +1,11 @@
+<h2>პროფილი: {{ user.username }}</h2>
+<p>ელ-ფოსტა: {{ user.email|default:"არ არის მითითებული" }}</p>
+<p>დავალებები: {{ total_tasks }}</p>
+<p>შესრულებული: {{ completed_tasks }}</p>
+
+<a href="{% url 'task_list' %}">ჩემი დავალებები</a>
+
+<form action="{% url 'logout' %}" style="margin-top: 20px;">
+    {% token %}
+    <button type="submit">გასვლა (Log Out)</button>
+</form>
